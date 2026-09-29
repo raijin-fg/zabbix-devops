@@ -1,0 +1,1 @@
+"""Ações externas da engine."""

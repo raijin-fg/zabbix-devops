@@ -1,0 +1,2 @@
+-r requirements.txt
+# Ferramentas de desenvolvimento, a definir: pytest, ruff, ansible-lint

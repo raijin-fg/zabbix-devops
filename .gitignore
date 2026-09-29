@@ -1,0 +1,37 @@
+# --- Segredos (NUNCA versionar) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vault_pass*
+vault_pass*
+*.vault-password
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Ansible ---
+*.retry
+.ansible/
+
+# --- Estado local e logs da engine ---
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+state/
+
+# --- Editor / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

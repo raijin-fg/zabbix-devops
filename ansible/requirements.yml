@@ -1,0 +1,9 @@
+---
+# Collections do Ansible. Ajuste conforme o fabricante dos equipamentos de rede
+# e o método de acesso ao banco (ver docs/adr/ e docs/matriz-cobertura.md).
+collections: []
+# Exemplos, a confirmar:
+#   - name: ansible.windows
+#   - name: community.windows
+#   - name: ansible.netcommon
+#   - name: community.general

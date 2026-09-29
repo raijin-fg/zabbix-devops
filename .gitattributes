@@ -1,0 +1,6 @@
+# Evita problemas de quebra de linha ao alternar entre Windows e Linux
+* text=auto
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
