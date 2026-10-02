@@ -1,2 +1,12 @@
-# Serviços do ambiente local. (placeholder)
-services: {}
+services:
+  automation-api:
+    image: python:3.11-slim
+    container_name: zabbix_automation_api
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "pip install --no-cache-dir -r requirements.txt &&
+             uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
